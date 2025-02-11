@@ -11,3 +11,5 @@ Some examples regarding [this problem](https://stackoverflow.com/questions/79421
 * `tun_asym.py`, `tun_asym_cksum.py`: These script sets up and configures a TUN interface named 'tunX' on a Linux system with a specific IP address. It listens for ICMP echo requests (ping packets) on this interface, and upon receiving a request, it constructs an ICMP echo reply and sends it back using a raw socket. The script runs continuously until interrupted, maintaining the TUN interface and handling ping requests. 
 
 * `tun_asym_cksum.c`: C version of `tun_asym_cksum.py`
+
+* `filter4tun.sh`: tc filter to redirect traffic from ens33 to tunX
