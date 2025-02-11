@@ -13,3 +13,7 @@ Some examples regarding [this problem](https://stackoverflow.com/questions/79421
 * `tun_asym_cksum.c`: C version of `tun_asym_cksum.py`
 
 * `filter4tun.sh`: tc filter to redirect traffic from ens33 to tunX
+
+* `filter2.sh`: tc filter to redirect traffic from tunX to tunY
+
+* `create_tun.sh`: create tun if in bash
