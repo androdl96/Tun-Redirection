@@ -12,6 +12,10 @@ Some examples regarding [this problem](https://stackoverflow.com/questions/79421
 
 * `tun_asym_cksum.c`: C version of `tun_asym_cksum.py`
 
+* `tunY_test.py`: Receive packets written to tunX and forward them via an `AF_PACKET` socket. The packets need to include Layer 2 headers.
+
+* `tunY_2.py`: Receive packets written to tunX and forward them via an `AF_INET` socket.
+
 * `filter4tun.sh`: tc filter to redirect traffic from ens33 to tunX
 
 * `filter2.sh`: tc filter to redirect traffic from tunX to tunY
